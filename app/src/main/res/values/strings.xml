@@ -1,0 +1,16 @@
+<resources>
+    <string name="app_name">My App Portfolio</string>
+    <string name="mainScreenTitle">My Nano degree Apps !</string>
+    <string name="spotifystreamer">Spotify Streamer</string>
+    <string name="scoresapp">Scores app</string>
+    <string name="libraryapp">Library App</string>
+    <string name="builditbigger">Build it bigger</string>
+    <string name="xyzreader">xyz reader</string>
+    <string name="capstone">Capstone: My own app</string>
+    <string name="ToastMessageSpotify">This button will launch  Spotify Streamer APP</string>
+    <string name="ToastMessageScoreApp">This Button will launch  Scores App</string>
+    <string name="ToastMessageLibraryApp">This Button will launch  library APP</string>
+    <string name="ToastMessageBuilditbigger">This button will launch  Build it Bigger APP</string>
+    <string name="ToastMessageXYZreader">This Button will launch XYZ Reader APP</string>
+    <string name="ToastMessageCapstone">This Button will launch Capstone APP</string>
+</resources>

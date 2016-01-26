@@ -1,0 +1,105 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:background="@color/lightgrey"
+    android:orientation="vertical"
+    tools:context="com.ashokslsk.myappportfolio.MainActivity">
+
+
+    <include
+        android:id="@+id/toolbar"
+        layout="@layout/toolbar"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content" />
+
+    <ScrollView
+        android:scrollbars="none"
+        android:layout_width="match_parent"
+        android:layout_height="match_parent">
+
+    <LinearLayout
+        android:background="@color/lightgrey"
+        android:layout_margin="35dp"
+        android:orientation="vertical"
+        android:layout_width="match_parent"
+        android:layout_height="match_parent">
+
+        <TextView
+            android:textColor="@color/CommonTextColor"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:layout_margin="30dp"
+            android:gravity="center"
+            android:text="@string/mainScreenTitle"
+            android:textSize="20sp" />
+
+        <Button
+            android:id="@+id/spotify"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:layout_margin="5dp"
+            android:background="@drawable/button_clicked_background"
+            android:gravity="center"
+            android:padding="10dp"
+            android:text="@string/spotifystreamer" />
+
+        <Button
+            android:id="@+id/scoreapp"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:layout_margin="5dp"
+            android:background="@drawable/button_clicked_background"
+            android:gravity="center"
+            android:padding="10dp"
+            android:text="@string/scoresapp" />
+
+
+        <Button
+            android:id="@+id/libraryapp"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:layout_margin="5dp"
+            android:background="@drawable/button_clicked_background"
+            android:gravity="center"
+            android:padding="10dp"
+            android:text="@string/libraryapp" />
+
+
+        <Button
+            android:id="@+id/builditbigger"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:layout_margin="5dp"
+            android:background="@drawable/button_clicked_background"
+            android:gravity="center"
+            android:padding="10dp"
+            android:text="@string/builditbigger" />
+
+
+        <Button
+            android:id="@+id/xyzreader"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:layout_margin="5dp"
+            android:background="@drawable/button_clicked_background"
+            android:gravity="center"
+            android:padding="10dp"
+            android:text="@string/xyzreader" />
+
+
+        <Button
+            android:id="@+id/capstone"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:layout_margin="5dp"
+            android:background="@drawable/button_clicked_background"
+            android:gravity="center"
+            android:padding="10dp"
+            android:text="@string/capstone" />
+    </LinearLayout>
+
+    </ScrollView>
+
+</LinearLayout>
